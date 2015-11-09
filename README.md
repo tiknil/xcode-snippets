@@ -23,3 +23,19 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
    così da creare un link simbolico tra il vostro repo e la cartella dove XCode si aspetta di trovare i vostri snippets
  * Potete anche copiare nella cartella del repo gli snippets di cui avete fatto il backup
  * Chiudete e riaprite XCode e i vostri snippets dovrebbero trovarsi già lì
+
+## Alcuni esempi ##
+
+#### `def` ####
+
+Questo snippet è molto comodo per organizzare il codice di implementazione delle classi in modo coerente. Basta cominciare a digitare `def` e lo snippet proporrà i `#pragma mark` per raggruppare il codice in maniera ordinata
+
+![def code snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/def_code_snippet.gif)
+
+#### `com`... ####
+
+Questo gruppo di snippet (`comblank`, `comfull`, `comparam` e `comreturn`) sono tutti relativi ai commenti delle dichiarazioni dei metodi (e non solo).
+Essi predispongono i caratteri che servono a far identificare i commenti all'IDE ma con anche i campi `@param` e `@return` con i relativi *placeholder* in modo tale da velocizzare l'inserimento e guidarlo nella maniera corretta
+
+![com code snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet.gif)
+
