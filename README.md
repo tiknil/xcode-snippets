@@ -6,7 +6,7 @@ Snippets di codice Obj-X per lo sviluppo iOS e OSX utili per migliorare il tuo l
 
 #### (1) XCode plugin ####
 
-Installare [ACCodeSnippetRepository](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin) by Arnaud Coomans (@acoomans) in XCode buildando il sorgente oppure tramite [Alcatraz](https://github.com/supermarin/Alcatraz) plugin package manager. Quindi configurare il plugin impostando come repository degli snippets questo repository. That's all!
+Installare [ACCodeSnippetRepository](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin) by Arnaud Coomans (@acoomans) in XCode buildando il sorgente oppure tramite [Alcatraz](https://github.com/supermarin/Alcatraz) plugin package manager. Quindi configurare il plugin impostando come repository degli snippets questo repository. (Richiede il fork del repo)
 
 oppure, se per qualche motivo non dovesse funzionare il plugin sopracitato:
 
