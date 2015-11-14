@@ -18,7 +18,7 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
  * Eliminate la cartella
  * Da Terminale eseguite il comando 
 
-`ln -s $XCODE_SNIPPETS_FOLDER ~/Library/Developer/Xcode/UserData/CodeSnippets` 
+`ln -s ~/Library/Developer/Xcode/UserData/CodeSnippets $XCODE_SNIPPETS_FOLDER` 
 
    così da creare un link simbolico tra il vostro repo e la cartella dove XCode si aspetta di trovare i vostri snippets
  * Potete anche copiare nella cartella del repo gli snippets di cui avete fatto il backup
