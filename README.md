@@ -39,3 +39,10 @@ Essi predispongono i caratteri che servono a far identificare i commenti all'IDE
 
 ![com code snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet.gif)
 
+#### `ws` e `ss` ####
+
+Per utilizzare `self` all'interno dei blocchi è utilissimo utilizzare la libreria [libextobjc](https://github.com/jspahrsummers/libextobjc) by @jspahrsummers che mette a disposizione due direttive al compilatore, `@weakify(self)` e `@strongify(self)`, da utilizzare rispettivamente prima del blocco e dentro il blocco per non incorrere a problemi dovuti al retain cycle dell'oggetto. 
+
+Anche per questo abbiamo creato due snippet (dato che queste direttive non vengono autocompletate da Xcode): 
+
+
