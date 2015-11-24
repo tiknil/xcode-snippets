@@ -24,7 +24,7 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
  * Potete anche copiare nella cartella del repo gli snippets di cui avete fatto il backup
  * Chiudete e riaprite XCode e i vostri snippets dovrebbero trovarsi già lì
 
-## Alcuni esempi ##
+## Snippets ##
 
 #### `def` ####
 
@@ -44,5 +44,26 @@ Essi predispongono i caratteri che servono a far identificare i commenti all'IDE
 Per utilizzare `self` all'interno dei blocchi è utilissimo utilizzare la libreria [libextobjc](https://github.com/jspahrsummers/libextobjc) by @jspahrsummers che mette a disposizione due direttive al compilatore, `@weakify(self)` e `@strongify(self)`, da utilizzare rispettivamente prima del blocco e dentro il blocco per non incorrere a problemi dovuti al retain cycle dell'oggetto. 
 
 Anche per questo abbiamo creato due snippet (dato che queste direttive non vengono autocompletate da Xcode): 
+
+![ws_ss_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/ws_ss_snippet.gif)
+
+#### `logm` ####
+
+Snippet utile per eseguire il log del nome della classe e del metodo per semplificare il debug. 
+
+![logm_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/logm_snippet.gif)
+
+#### `strf` ####
+
+Snippet utile per implementare il blocco `[NSString stringWithFormat:@"...",....]` per velocizzare la stesura di codice ripetitivo. 
+
+![strf_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/strf_snippet.gif)
+
+
+#### `pragma` #####
+
+Snippet utile per velocizzare la scrittura dei `#pragma mark`. Di per sé da quando usiamo `def` come snippet, questo non viene più utilizzato :wink:
+
+![pragma_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/pragma_snippets.gif)
 
 
