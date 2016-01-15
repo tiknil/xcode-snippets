@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cnst_v</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> [&lt;#ParentView#&gt; addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:&lt;#(nonnull NSString *)#&gt;
+                                                                        options:&lt;#(NSLayoutFormatOptions)#&gt;
+                                                                        metrics:&lt;#(nullable NSDictionary&lt;NSString *,id&gt; *)#&gt;
+                                                                          views:&lt;#(nonnull NSDictionary&lt;NSString *,id&gt; *)#&gt;]];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6E9D90F6-5A5B-474D-8955-E99967304B94</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add constraints to parent with visual format</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Constraints with Visual Format</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

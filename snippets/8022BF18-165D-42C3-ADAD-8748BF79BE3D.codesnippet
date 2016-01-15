@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>cnst_d</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>[&lt;#ParentView#&gt; addConstraint:[NSLayoutConstraint constraintWithItem:&lt;#(nonnull id)#&gt;
+                                                                        attribute:&lt;#(NSLayoutAttribute)#&gt;
+                                                                        relatedBy:&lt;#(NSLayoutRelation)#&gt;
+                                                                           toItem:&lt;#(nullable id)#&gt;
+                                                                        attribute:&lt;#(NSLayoutAttribute)#&gt;
+                                                                       multiplier:&lt;#(CGFloat)#&gt;
+                                                                         constant:&lt;#(CGFloat)#&gt;]];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8022BF18-165D-42C3-ADAD-8748BF79BE3D</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Add constraint to parent</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Constraint</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

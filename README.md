@@ -67,3 +67,14 @@ Snippet utile per velocizzare la scrittura dei `#pragma mark`. Di per sé da qua
 ![pragma_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/pragma_snippets.gif)
 
 
+#### `cnst_v` e `cnst_v` #####
+
+Snippet utili per velocizzare la scrittura delle AutoLayout constraints.
+
+`cnst_v` predispone l'inserimento di constraints nella view parent utilizzando il [Visual Format Language](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html)
+
+![cnst_v_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/cnst_v.gif)
+
+`cnst_d` predispone l'inserimento di una constraint normale nella view parent.
+
+![cnst_d_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/cnst_d.gif)
