@@ -4,13 +4,7 @@ Snippets di codice Obj-X per lo sviluppo iOS e OSX utili per migliorare il tuo l
 
 ## Come tenerli aggiornati su XCode? ##
 
-#### (1) XCode plugin ####
-
-Installare [ACCodeSnippetRepository](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin) by Arnaud Coomans (@acoomans) in XCode buildando il sorgente oppure tramite [Alcatraz](https://github.com/supermarin/Alcatraz) plugin package manager. Quindi configurare il plugin impostando come repository degli snippets questo repository. (Richiede il fork del repo)
-
-oppure, se per qualche motivo non dovesse funzionare il plugin sopracitato:
-
-#### (2) Link simbolico e repo locale ####
+#### (1) Link simbolico e repo locale ####
 
 Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in questo modo: 
  * Pullare il presente repository (o meglio una vostra fork + pull, così potrete fare delle pull request se avrete snippets interessanti!) in una vostra cartella (da ora `$XCODE_SNIPPETS_FOLDER`)
@@ -23,6 +17,12 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
    così da creare un link simbolico tra il vostro repo e la cartella dove XCode si aspetta di trovare i vostri snippets
  * Potete anche copiare nella cartella del repo gli snippets di cui avete fatto il backup
  * Chiudete e riaprite XCode e i vostri snippets dovrebbero trovarsi già lì
+
+#### (2) XCode plugin (non funziona con Xcode7) ####
+
+Installare [ACCodeSnippetRepository](https://github.com/acoomans/ACCodeSnippetRepositoryPlugin) by Arnaud Coomans (@acoomans) in XCode buildando il sorgente oppure tramite [Alcatraz](https://github.com/supermarin/Alcatraz) plugin package manager. Quindi configurare il plugin impostando come repository degli snippets questo repository. (Richiede il fork del repo)
+
+oppure, se per qualche motivo non dovesse funzionare il plugin sopracitato:
 
 ## Snippets ##
 
