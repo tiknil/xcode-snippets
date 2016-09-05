@@ -1,6 +1,6 @@
 # Xcode snippets
 
-Snippets di codice Obj-X per lo sviluppo iOS e OSX utili per migliorare il tuo lavoro in termini di velocità ma anche di qualità del codice. (Vedi [Obj-C Style Guide by Tiknil](https://github.com/tiknil/objective-c-style-guide))
+Snippets di codice Obj-C e Swift per lo sviluppo iOS e OSX utili per migliorare il tuo lavoro in termini di velocità ma anche di qualità del codice. (Vedi [Obj-C Style Guide by Tiknil](https://github.com/tiknil/objective-c-style-guide) e [Swift Style Guide di Tiknil](https://github.com/tiknil/swift-style-guide))
 
 ## Come tenerli aggiornati su XCode? ##
 
@@ -24,14 +24,23 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
 
 Questo snippet è molto comodo per organizzare il codice di implementazione delle classi in modo coerente. Basta cominciare a digitare `def` e lo snippet proporrà i `#pragma mark` per raggruppare il codice in maniera ordinata
 
+**Obj-C** 
 ![def code snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/def_code_snippet.gif)
+
+**Swift**
+![def code snippet swift](https://github.com/tiknil/xcode-snippets/blob/master/images/def_code_snippet_swift.gif)
 
 #### `com`... ####
 
 Questo gruppo di snippet (`comblank`, `comfull`, `comparam` e `comreturn`) sono tutti relativi ai commenti delle dichiarazioni dei metodi (e non solo).
-Essi predispongono i caratteri che servono a far identificare i commenti all'IDE ma con anche i campi `@param` e `@return` con i relativi *placeholder* in modo tale da velocizzare l'inserimento e guidarlo nella maniera corretta
+Essi predispongono i caratteri che servono a far identificare i commenti all'IDE ma con anche i campi `@param`/`- Parameter :` e `@return`/`- Returns:` con i relativi *placeholder* in modo tale da velocizzare l'inserimento e guidarlo nella maniera corretta
 
+**Obj-C**
 ![com code snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet.gif)
+
+**Swift**
+![com code snippets swift](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet_swift.gif)
+
 
 #### `ws` e `ss` ####
 
