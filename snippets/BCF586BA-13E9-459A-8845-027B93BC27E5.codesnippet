@@ -3,44 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>def</string>
+	<string>sd</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// MARK: - Properties
-    // MARK: Class
-    
-    
-    // MARK: Public
-    
-    
-    // MARK: Private
-    
-    
-    // MARK: - Methods
-    // MARK: Class
-    
-    
-    // MARK: Lifecycle
-    
-    
-    // MARK: Public
-    
-    
-    // MARK: Private
-    
-    
-</string>
+	<string>String(describing: &lt;#Item#&gt;)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6B3A5A18-6FED-4F41-9246-0260DB59E212</string>
+	<string>BCF586BA-13E9-459A-8845-027B93BC27E5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>Default class implementation marks</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Default Marks</string>
+	<string>String describing</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
