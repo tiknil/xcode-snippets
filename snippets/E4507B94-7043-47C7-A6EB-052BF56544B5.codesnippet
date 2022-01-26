@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fact</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private func &lt;#name#&gt;Factory() -&gt; UIViewController {
+    let vm = &lt;#Name#&gt;VM(resolver: AppContainer.shared)
+        vm.flowDelegate = self
+        let vc = &lt;#Name#&gt;VC(viewModel: vm)
+        return vc
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E4507B94-7043-47C7-A6EB-052BF56544B5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VM/VC Factory boilerplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

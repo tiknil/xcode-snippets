@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vm</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import Foundation
+import RxSwift
+import RxCocoa
+import RxOptional
+import Swinject
+
+protocol &lt;#Name#&gt;FlowDelegate: BaseFlowDelegate {
+    
+}
+
+class &lt;#Name#&gt;VM: BaseVM {
+    // MARK: - Properties
+    // MARK: Class
+    
+    
+    // MARK: Public
+    
+    // Flow
+    weak var flowDelegate: &lt;#Name#&gt;FlowDelegate?
+    
+    
+    // MARK: Private
+    
+    
+    // MARK: - Methods
+    // MARK: Class
+    
+    
+    // MARK: Lifecycle
+    override init(resolver: Resolver) {
+        super.init(resolver: resolver)
+    }
+    
+    // MARK: Public
+    override func navigationController() -&gt; UINavigationController? {
+        return flowDelegate?.getCurrentNavigationController()
+    }
+    
+    // MARK: Private
+    
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DDD34F15-FE14-4824-A512-3835D02D989A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VM boilerplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

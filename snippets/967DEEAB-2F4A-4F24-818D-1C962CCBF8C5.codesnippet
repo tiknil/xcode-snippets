@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>vc</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import UIKit
+import SnapKit
+import RxSwift
+import RxCocoa
+
+class &lt;#Name#&gt;VC: BaseVC {
+    // MARK: - Properties
+    // MARK: Class
+    
+    
+    // MARK: Public
+    let viewModel: &lt;#Name#&gt;VM
+    
+    // MARK: Private
+    private let label = UILabel()
+    
+    // MARK: - Methods
+    // MARK: Class
+    
+    
+    // MARK: Lifecycle
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("must be initialized from init(viewModel:)")
+    }
+    
+    init(viewModel: &lt;#Name#&gt;VM) {
+        self.viewModel = viewModel
+        super.init()
+    }
+    
+    override func setupUi() {
+        super.setupUi()
+        
+        label.font = .regular(size: 20)
+        label.text = "&lt;#Name#&gt;"
+        label.textAlignment = .center
+        label.textColor = .white
+        
+        view.addSubview(label)
+    }
+    
+    override func setupConstraints() {
+        super.setupConstraints()
+        
+        label.snp.makeConstraints { make in
+            make.edges.centerY.equalToSuperview().priority(.low)
+            make.leading.trailing.equalToSuperview().inset(UIConstants.hPadding12)
+        }
+    }
+    
+    override func setupBindings() {
+        super.setupBindings()
+    }
+    
+    // MARK: Public
+    
+    
+    // MARK: Private
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>967DEEAB-2F4A-4F24-818D-1C962CCBF8C5</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>VC boilerplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
