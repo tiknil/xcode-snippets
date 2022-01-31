@@ -1,6 +1,6 @@
 # Xcode snippets
 
-Snippets di codice Obj-C e Swift per lo sviluppo iOS e OSX utili per migliorare il tuo lavoro in termini di velocità ma anche di qualità del codice. (Vedi [Obj-C Style Guide by Tiknil](https://github.com/tiknil/objective-c-style-guide) e [Swift Style Guide di Tiknil](https://github.com/tiknil/swift-style-guide))
+Snippets di codice Obj-C e Swift per lo sviluppo iOS e OSX utili per migliorare il tuo lavoro in termini di velocità ma anche di qualità del codice. (Vedi la [Swift Style Guide di Tiknil](https://github.com/tiknil/swift-style-guide))
 
 ## Come tenerli aggiornati su XCode? ##
 
@@ -22,13 +22,7 @@ Pullare il repo e impostare i riferimenti simbolici alla cartella corretta, in q
 
 #### `def` ####
 
-Questo snippet è molto comodo per organizzare il codice di implementazione delle classi in modo coerente. Basta cominciare a digitare `def` e lo snippet proporrà i `#pragma mark` per raggruppare il codice in maniera ordinata
-
-**Obj-C** 
-
-![def code snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/def_code_snippet.gif)
-
-**Swift**
+Questo snippet è molto comodo per organizzare il codice di implementazione delle classi in modo coerente. Basta cominciare a digitare `def` e lo snippet proporrà i `// MARK: ` per raggruppare il codice in maniera ordinata
 
 ![def code snippet swift](https://github.com/tiknil/xcode-snippets/blob/master/images/def_code_snippet_swift.gif)
 
@@ -37,51 +31,49 @@ Questo snippet è molto comodo per organizzare il codice di implementazione dell
 Questo gruppo di snippet (`comblank`, `comfull`, `comparam` e `comreturn`) sono tutti relativi ai commenti delle dichiarazioni dei metodi (e non solo).
 Essi predispongono i caratteri che servono a far identificare i commenti all'IDE ma con anche i campi `@param`/`- Parameter :` e `@return`/`- Returns:` con i relativi *placeholder* in modo tale da velocizzare l'inserimento e guidarlo nella maniera corretta
 
-**Obj-C**
-
-![com code snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet.gif)
-
-**Swift**
-
 ![com code snippets swift](https://github.com/tiknil/xcode-snippets/blob/master/images/com_code_snippet_swift.gif)
 
 
-#### `ws` e `ss` ####
+#### `wea` e `guardself` ####
 
-Per utilizzare `self` all'interno dei blocchi è utilissimo utilizzare la libreria [libextobjc](https://github.com/jspahrsummers/libextobjc) by @jspahrsummers che mette a disposizione due direttive al compilatore, `@weakify(self)` e `@strongify(self)`, da utilizzare rispettivamente prima del blocco e dentro il blocco per non incorrere a problemi dovuti al retain cycle dell'oggetto. 
+Per utilizzare `self` all'interno dei blocchi è utile usare gli snippet `wea` (che genera il codice `[weak self]`) e `guardself` (che genera il codice `guard let self = self else { return }`) da utilizzare all'inizio dei blocchi per non incorrere a leak dell'istanza stessa. 
 
-Anche per questo abbiamo creato due snippet (dato che queste direttive non vengono autocompletate da Xcode): 
-
-![ws_ss_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/ws_ss_snippet.gif)
-
-#### `logm` ####
-
-Snippet utile per eseguire il log del nome della classe e del metodo per semplificare il debug. 
-
-![logm_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/logm_snippet.gif)
-
-#### `strf` ####
-
-Snippet utile per implementare il blocco `[NSString stringWithFormat:@"...",....]` per velocizzare la stesura di codice ripetitivo. 
-
-![strf_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/strf_snippet.gif)
+![wea_guardself_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/wea_guardself_snippet.gif)
 
 
-#### `pragma` #####
+### Rx snippet ###
 
-Snippet utile per velocizzare la scrittura dei `#pragma mark`. Di per sé da quando usiamo `def` come snippet, questo non viene più utilizzato :wink:
+#### `obse` ####
 
-![pragma_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/pragma_snippets.gif)
+Questo snippet crea il codice necessario per costruire un observable con tanto di gestione dei potenziali leak dell'istanza 
+
+![obse_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/obse_snippet.gif)
+
+#### `guardselfrx` ####
+
+Questo snippet è un'evoluzione dei precedenti in quanto viene usato all'interno delle funzioni che creano un Completable, Single o Maybe.
+
+![guardselfrx_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/guardselfrx_snippet.gif)
 
 
-#### `cnst_v` e `cnst_v` #####
+### MVVM Tiknil pattern snippet ###
 
-Snippet utili per velocizzare la scrittura delle AutoLayout constraints.
+#### `vc` ####
 
-`cnst_v` predispone l'inserimento di constraints nella view parent utilizzando il [Visual Format Language](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage.html)
+Questo snippet crea il boilerplate di un viewcontroller adeguato per il pattern mvvm Tiknil, con i placeholder dove inserire il nome della view che si sta realizzando
 
-![cnst_v_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/cnst_v.gif)
+![vc_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/vc_snippet.gif)
 
-`cnst_d` predispone l'inserimento di una constraint normale nella view parent.
 
-![cnst_d_snippet](https://github.com/tiknil/xcode-snippets/blob/master/images/cnst_d.gif)
+#### `vm` ####
+
+Questo snippet crea il boilerplate di un viewmodel adeguato per il pattern mvvm Tiknil, con i placeholder dove inserire il nome del viewmodel che si sta realizzando
+
+![vm_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/vc_snippet.gif)
+
+
+
+
+
+
+
