@@ -69,7 +69,7 @@ Questo snippet crea il boilerplate di un viewcontroller adeguato per il pattern 
 
 Questo snippet crea il boilerplate di un viewmodel adeguato per il pattern mvvm Tiknil, con i placeholder dove inserire il nome del viewmodel che si sta realizzando
 
-![vm_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/vc_snippet.gif)
+![vm_snippets](https://github.com/tiknil/xcode-snippets/blob/master/images/vm_snippet.gif)
 
 
 
